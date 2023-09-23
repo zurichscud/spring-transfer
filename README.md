@@ -7,6 +7,7 @@
 - MyBatis
 - Junit in Spring
 - log4j
+- git
 
 ```
 System.out.println("Hello World~");
