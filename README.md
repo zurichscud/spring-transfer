@@ -1,6 +1,6 @@
-# Spring-base
+# Spring-transfer
 
-模块中使用了`User` 表作为范本
+以银行转账作为范例讲解，针对Account表操作，并设计有log日志功能
 
 整合了如下配置：
 
