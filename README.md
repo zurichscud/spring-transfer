@@ -8,6 +8,7 @@
 - Junit in Spring
 - log4j
 - git
+- AOP
 
 ```
 System.out.println("Hello World~");
