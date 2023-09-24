@@ -4,8 +4,6 @@ import com.demo1.mapper.AccountMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.io.IOException;
-
 /**
  * @Author: zurichscud
  * @Date: 2023/9/24 10:59
@@ -23,8 +21,8 @@ public class AccountServerImpl implements AccountService {
         boolean flag = false;
         try {
             accountMapper.inMoney(inUser, money);
-            if (true) throw new IOException();
-//            accountMapper.outMoney(outUser, money);
+//            if (true) throw new IOException();
+            accountMapper.outMoney(outUser, money);
             flag = true;
         } finally {
             logService.log(outUser, inUser, money, flag);
