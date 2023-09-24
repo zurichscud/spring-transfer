@@ -24,7 +24,7 @@ public class AccountServerImpl implements AccountService {
         try {
             accountMapper.inMoney(inUser, money);
             if (true) throw new IOException();
-            accountMapper.outMoney(outUser, money);
+//            accountMapper.outMoney(outUser, money);
             flag = true;
         } finally {
             logService.log(outUser, inUser, money, flag);
